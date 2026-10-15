@@ -1,0 +1,119 @@
+TOOL:	xrun	25.03-s001: Started on Oct 15, 2026 at 19:11:54 EDT
+TOOL:	xrun(64)	25.03-s001: Started on Oct 15, 2026 at 19:11:55 EDT
+xrun(64): 25.03-s001: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+Loading snapshot worklib.tb_fifo:sv .................... Done
+SVSEED set from command line: 1
+xcelium> source /home/tuan/tools/cadence/XCELIUM2503/tools/xcelium/files/xmsimrc
+xcelium> run
+[TB] Running testcase: FULL
+[TB] Starting scenario: FULL
+[30000] [DRV] wr=1, r=0, din=8'h00 (0)
+[40000] [DRV] wr=1, r=0, din=8'h01 (1)
+[50000] [DRV] wr=1, r=0, din=8'h02 (2)
+[60000] [DRV] wr=1, r=0, din=8'h03 (3)
+[70000] [DRV] wr=1, r=0, din=8'h04 (4)
+[80000] [DRV] wr=1, r=0, din=8'h05 (5)
+[90000] [DRV] wr=1, r=0, din=8'h06 (6)
+[100000] [DRV] wr=1, r=0, din=8'h07 (7)
+[110000] [DRV] wr=1, r=0, din=8'h08 (8)
+[120000] [DRV] wr=1, r=0, din=8'h09 (9)
+[130000] [DRV] wr=1, r=0, din=8'h0a (10)
+[140000] [DRV] wr=1, r=0, din=8'h0b (11)
+[150000] [DRV] wr=1, r=0, din=8'h0c (12)
+[160000] [DRV] wr=1, r=0, din=8'h0d (13)
+[170000] [DRV] wr=1, r=0, din=8'h0e (14)
+[180000] [DRV] wr=1, r=0, din=8'h0f (15)
+[190000] [DRV] wr=1, r=0, din=8'hff (255)
+[200000] [DRV] wr=0, r=1, din=8'h00 (0)
+[210000] [DRV] wr=0, r=1, din=8'h00 (0)
+xmsim: *E,ERRSEV (../scoreboard.sv,142): (time 210 NS).
+$unit_0x43c38531.Scoreboard.run
+FIFO MISMATCH: expected=00 actual=01
+[220000] [DRV] wr=0, r=1, din=8'h00 (0)
+xmsim: *E,ERRSEV (../scoreboard.sv,142): (time 220 NS).
+$unit_0x43c38531.Scoreboard.run
+FIFO MISMATCH: expected=01 actual=00
+[230000] [DRV] wr=0, r=1, din=8'h00 (0)
+xmsim: *E,ERRSEV (../scoreboard.sv,142): (time 230 NS).
+$unit_0x43c38531.Scoreboard.run
+FIFO MISMATCH: expected=02 actual=03
+[240000] [DRV] wr=0, r=1, din=8'h00 (0)
+xmsim: *E,ERRSEV (../scoreboard.sv,142): (time 240 NS).
+$unit_0x43c38531.Scoreboard.run
+FIFO MISMATCH: expected=03 actual=02
+[250000] [DRV] wr=0, r=1, din=8'h00 (0)
+xmsim: *E,ERRSEV (../scoreboard.sv,142): (time 250 NS).
+$unit_0x43c38531.Scoreboard.run
+FIFO MISMATCH: expected=04 actual=05
+[260000] [DRV] wr=0, r=1, din=8'h00 (0)
+xmsim: *E,ERRSEV (../scoreboard.sv,142): (time 260 NS).
+$unit_0x43c38531.Scoreboard.run
+FIFO MISMATCH: expected=05 actual=04
+[270000] [DRV] wr=0, r=1, din=8'h00 (0)
+xmsim: *E,ERRSEV (../scoreboard.sv,142): (time 270 NS).
+$unit_0x43c38531.Scoreboard.run
+FIFO MISMATCH: expected=06 actual=07
+[280000] [DRV] wr=0, r=1, din=8'h00 (0)
+xmsim: *E,ERRSEV (../scoreboard.sv,142): (time 280 NS).
+$unit_0x43c38531.Scoreboard.run
+FIFO MISMATCH: expected=07 actual=06
+[290000] [DRV] wr=0, r=1, din=8'h00 (0)
+xmsim: *E,ERRSEV (../scoreboard.sv,142): (time 290 NS).
+$unit_0x43c38531.Scoreboard.run
+FIFO MISMATCH: expected=08 actual=09
+[300000] [DRV] wr=0, r=1, din=8'h00 (0)
+xmsim: *E,ERRSEV (../scoreboard.sv,142): (time 300 NS).
+$unit_0x43c38531.Scoreboard.run
+FIFO MISMATCH: expected=09 actual=08
+[310000] [DRV] wr=0, r=1, din=8'h00 (0)
+xmsim: *E,ERRSEV (../scoreboard.sv,142): (time 310 NS).
+$unit_0x43c38531.Scoreboard.run
+FIFO MISMATCH: expected=0a actual=0b
+[320000] [DRV] wr=0, r=1, din=8'h00 (0)
+xmsim: *E,ERRSEV (../scoreboard.sv,142): (time 320 NS).
+$unit_0x43c38531.Scoreboard.run
+FIFO MISMATCH: expected=0b actual=0a
+[330000] [DRV] wr=0, r=1, din=8'h00 (0)
+xmsim: *E,ERRSEV (../scoreboard.sv,142): (time 330 NS).
+$unit_0x43c38531.Scoreboard.run
+FIFO MISMATCH: expected=0c actual=0d
+[340000] [DRV] wr=0, r=1, din=8'h00 (0)
+xmsim: *E,ERRSEV (../scoreboard.sv,142): (time 340 NS).
+$unit_0x43c38531.Scoreboard.run
+FIFO MISMATCH: expected=0d actual=0c
+[350000] [DRV] wr=0, r=1, din=8'h00 (0)
+xmsim: *E,ERRSEV (../scoreboard.sv,142): (time 350 NS).
+$unit_0x43c38531.Scoreboard.run
+FIFO MISMATCH: expected=0e actual=0f
+xmsim: *E,ERRSEV (../scoreboard.sv,142): (time 360 NS).
+$unit_0x43c38531.Scoreboard.run
+FIFO MISMATCH: expected=0f actual=0e
+[TB] Completed scenario: FULL
+-----------------------------------
+SCOREBOARD SUMMARY
+Total Checks : 152
+Total Errors : 16
+RESULT: FAIL
+Functional Coverage: 72.62%
+[COV] operation=100.00% occupancy=100.00% cross=66.67% data=66.67%
+[COV] reset=0.00% wrap=100.00% back_to_back=75.00%
+-----------------------------------
+xmsim: *F,FATSEV (../tb_fifo.sv,162): (time 366 NS).
+tb_fifo
+TEST FULL FAILED
+Simulation terminated via $fatal(1) at time 366 NS + 0
+../tb_fifo.sv:162     if (scb.check_count == 0 || scb.error_count != 0) $fatal(1, "TEST %s FAILED", testname);
+xcelium> exit
+xmsim: *N,COVCGN: Coverage configuration file command "set_covergroup -new_instance_reporting" can be specified to improve the scoping and naming of covergroup instances. It may be noted that subsequent merging of a coverage database saved with this command and a coverage database saved without this command is not allowed.
+xmsim: *W,CGDEFN: Default name "tb_fifo.scb.fifo_cg" will be generated for covergroup instance "fifo_cg" as the name of the covergroup instance is not specified explicitly: ../scoreboard.sv, 13.
+
+coverage setup:
+  workdir  :  /home/tuan/projects/fifo_portfolio_validation_20261016/report/mutations_cpkch7u8/read_address/report/regression_20261015_191153_v5d8x2j8/coverage
+  dutinst  :  tb_fifo(tb_fifo)
+  scope    :  scope
+  testname :  full_s1
+
+coverage files:
+  model(design data) :  /home/tuan/projects/fifo_portfolio_validation_20261016/report/mutations_cpkch7u8/read_address/report/regression_20261015_191153_v5d8x2j8/coverage/scope/icc_00000000_013b7927.ucm
+  data               :  /home/tuan/projects/fifo_portfolio_validation_20261016/report/mutations_cpkch7u8/read_address/report/regression_20261015_191153_v5d8x2j8/coverage/scope/full_s1/icc_00000000_013b7927.ucd
+TOOL:	xrun(64)	25.03-s001: Exiting on Oct 15, 2026 at 19:11:55 EDT  (total: 00:00:00)

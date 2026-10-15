@@ -1,0 +1,29 @@
+# Generated simulation, regression, and coverage outputs
+/work/
+/report/
+xcelium.d/
+INCA_libs/
+cov_work/
+xrun.history
+xrun.log
+xcelium_history
+*.key
+*.shm/
+*.dsn
+*.trn
+*.ucd
+*.ucm
+*.ucdb
+
+# Editor and Python files
+*.swp
+*.swo
+*~
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.idea/
+.DS_Store
+
+# Curated text logs in evidence/ are intentionally tracked.

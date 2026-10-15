@@ -1,0 +1,12 @@
+run,test,seed,status,exit_code,checks,errors,coverage_percent,drivers,reason
+full_s1,FULL,1,PASS,0,152,0,72.62,33,
+empty_s1,EMPTY,1,PASS,0,21,0,39.29,4,
+wrap_s1,WRAP,1,PASS,0,166,0,75.24,36,
+reset_s1,RESET,1,PASS,0,45,0,52.14,6,
+reset_empty_s1,RESET_EMPTY,1,PASS,0,12,0,15.71,0,
+random_s1,RANDOM,1,PASS,0,855,0,80.95,200,
+random_s2,RANDOM,2,PASS,0,859,0,76.19,200,
+random_s3,RANDOM,3,PASS,0,875,0,68.57,200,
+random_s42,RANDOM,42,PASS,0,871,0,69.52,200,
+random_s123,RANDOM,123,PASS,0,855,0,76.19,200,
+suite_s1,SUITE,1,PASS,0,1515,0,100.00,317,

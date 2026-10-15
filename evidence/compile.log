@@ -1,0 +1,58 @@
+TOOL:	xrun	25.03-s001: Started on Oct 15, 2026 at 19:11:59 EDT
+TOOL:	xrun(64)	25.03-s001: Started on Oct 15, 2026 at 19:11:59 EDT
+xrun(64): 25.03-s001: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+file: ../transaction.sv
+file: ../fifo_if.sv
+	interface worklib.fifo_if:sv
+		errors: 0, warnings: 0
+file: ../fifo_observation.sv
+file: ../scoreboard.sv
+file: ../generator.sv
+file: ../driver.sv
+file: ../monitor.sv
+file: ../fifo.sv
+	module worklib.fifo:sv
+		errors: 0, warnings: 0
+file: ../tb_fifo.sv
+	module worklib.tb_fifo:sv
+		errors: 0, warnings: 0
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Top level design units:
+		$unit_0x43c38531
+		tb_fifo
+	Building instance overlay tables: .................... Done
+	Enabling instrumentation for coverage types: functional
+	Generating native compiled code:
+		worklib.fifo:sv <0x300f56ee>
+			streams:   6, words:  2886
+		worklib.tb_fifo:sv <0x32013fe8>
+			streams:  49, words: 49541
+		worklib.fifo_if:sv <0x07ea59d2>
+			streams:  56, words: 81658
+	Building instance specific data structures.
+xmelab: *W,CGPIDF: Covergroup "per_instance" option , by default, is set as 0.
+xmelab: *N,COVCGN: Coverage configuration file command "set_covergroup -new_instance_reporting" can be specified to improve the scoping and naming of covergroup instances. It may be noted that subsequent merging of a coverage database saved with this command and a coverage database saved without this command is not allowed.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                     Instances  Unique
+		Modules:                     2       2
+		Interfaces:                  1       1
+		Registers:                 106     126
+		Scalar wires:               10       -
+		Vectored wires:              3       -
+		Named events:                5       5
+		Always blocks:              17      17
+		Initial blocks:              9       9
+		Parallel blocks:             8       8
+		Cont. assignments:           1       2
+		Pseudo assignments:          8       -
+		Assertions:                  5       5
+		Covergroup Instances:        0       1
+		Compilation units:           1       1
+		SV Class declarations:       6       6
+		SV Class specializations:    6       6
+		Process Clocks:              1       1
+		Simulation timescale:      1ps
+	Writing initial simulation snapshot: worklib.tb_fifo:sv
+TOOL:	xrun(64)	25.03-s001: Exiting on Oct 15, 2026 at 19:11:59 EDT  (total: 00:00:00)

@@ -1,0 +1,27 @@
+{
+  "golden_sha256": "cc55123e821b9edf9d8c17fd86d7793d43fab6e9403feaa5bbe329ab596d26bd",
+  "mutations": [
+    {
+      "mutation": "full_threshold",
+      "test": "FULL",
+      "seed": 1,
+      "checks": 152,
+      "errors": 5,
+      "coverage_percent": 72.62,
+      "full_exit": 2,
+      "regression_exit": 1,
+      "detected": true
+    },
+    {
+      "mutation": "read_address",
+      "test": "FULL",
+      "seed": 1,
+      "checks": 152,
+      "errors": 16,
+      "coverage_percent": 72.62,
+      "full_exit": 2,
+      "regression_exit": 1,
+      "detected": true
+    }
+  ]
+}

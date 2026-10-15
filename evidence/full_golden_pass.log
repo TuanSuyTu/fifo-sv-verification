@@ -1,0 +1,69 @@
+TOOL:	xrun	25.03-s001: Started on Oct 15, 2026 at 19:11:59 EDT
+TOOL:	xrun(64)	25.03-s001: Started on Oct 15, 2026 at 19:12:00 EDT
+xrun(64): 25.03-s001: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+Loading snapshot worklib.tb_fifo:sv .................... Done
+SVSEED set from command line: 1
+xcelium> source /home/tuan/tools/cadence/XCELIUM2503/tools/xcelium/files/xmsimrc
+xcelium> run
+[TB] Running testcase: FULL
+[TB] Starting scenario: FULL
+[30000] [DRV] wr=1, r=0, din=8'h00 (0)
+[40000] [DRV] wr=1, r=0, din=8'h01 (1)
+[50000] [DRV] wr=1, r=0, din=8'h02 (2)
+[60000] [DRV] wr=1, r=0, din=8'h03 (3)
+[70000] [DRV] wr=1, r=0, din=8'h04 (4)
+[80000] [DRV] wr=1, r=0, din=8'h05 (5)
+[90000] [DRV] wr=1, r=0, din=8'h06 (6)
+[100000] [DRV] wr=1, r=0, din=8'h07 (7)
+[110000] [DRV] wr=1, r=0, din=8'h08 (8)
+[120000] [DRV] wr=1, r=0, din=8'h09 (9)
+[130000] [DRV] wr=1, r=0, din=8'h0a (10)
+[140000] [DRV] wr=1, r=0, din=8'h0b (11)
+[150000] [DRV] wr=1, r=0, din=8'h0c (12)
+[160000] [DRV] wr=1, r=0, din=8'h0d (13)
+[170000] [DRV] wr=1, r=0, din=8'h0e (14)
+[180000] [DRV] wr=1, r=0, din=8'h0f (15)
+[190000] [DRV] wr=1, r=0, din=8'hff (255)
+[200000] [DRV] wr=0, r=1, din=8'h00 (0)
+[210000] [DRV] wr=0, r=1, din=8'h00 (0)
+[220000] [DRV] wr=0, r=1, din=8'h00 (0)
+[230000] [DRV] wr=0, r=1, din=8'h00 (0)
+[240000] [DRV] wr=0, r=1, din=8'h00 (0)
+[250000] [DRV] wr=0, r=1, din=8'h00 (0)
+[260000] [DRV] wr=0, r=1, din=8'h00 (0)
+[270000] [DRV] wr=0, r=1, din=8'h00 (0)
+[280000] [DRV] wr=0, r=1, din=8'h00 (0)
+[290000] [DRV] wr=0, r=1, din=8'h00 (0)
+[300000] [DRV] wr=0, r=1, din=8'h00 (0)
+[310000] [DRV] wr=0, r=1, din=8'h00 (0)
+[320000] [DRV] wr=0, r=1, din=8'h00 (0)
+[330000] [DRV] wr=0, r=1, din=8'h00 (0)
+[340000] [DRV] wr=0, r=1, din=8'h00 (0)
+[350000] [DRV] wr=0, r=1, din=8'h00 (0)
+[TB] Completed scenario: FULL
+-----------------------------------
+SCOREBOARD SUMMARY
+Total Checks : 152
+Total Errors : 0
+RESULT: PASS
+Functional Coverage: 72.62%
+[COV] operation=100.00% occupancy=100.00% cross=66.67% data=66.67%
+[COV] reset=0.00% wrap=100.00% back_to_back=75.00%
+-----------------------------------
+[TB] TEST FULL PASSED
+Simulation complete via $finish(1) at time 366 NS + 0
+../tb_fifo.sv:168     $finish;
+xcelium> exit
+xmsim: *N,COVCGN: Coverage configuration file command "set_covergroup -new_instance_reporting" can be specified to improve the scoping and naming of covergroup instances. It may be noted that subsequent merging of a coverage database saved with this command and a coverage database saved without this command is not allowed.
+xmsim: *W,CGDEFN: Default name "tb_fifo.scb.fifo_cg" will be generated for covergroup instance "fifo_cg" as the name of the covergroup instance is not specified explicitly: ../scoreboard.sv, 13.
+
+coverage setup:
+  workdir  :  /home/tuan/projects/fifo_portfolio_validation_20261016/report/regression_20261015_191159_ot0a9o8u/coverage
+  dutinst  :  tb_fifo(tb_fifo)
+  scope    :  scope
+  testname :  full_s1
+
+coverage files:
+  model(design data) :  /home/tuan/projects/fifo_portfolio_validation_20261016/report/regression_20261015_191159_ot0a9o8u/coverage/scope/icc_00000000_013b7927.ucm
+  data               :  /home/tuan/projects/fifo_portfolio_validation_20261016/report/regression_20261015_191159_ot0a9o8u/coverage/scope/full_s1/icc_00000000_013b7927.ucd
+TOOL:	xrun(64)	25.03-s001: Exiting on Oct 15, 2026 at 19:12:00 EDT  (total: 00:00:00)
